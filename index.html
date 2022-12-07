@@ -9,10 +9,30 @@
     <title>Calculator</title>
 </head>
 <body class="bg-gradient-to-tl from-sky-200 via-sky-50 to-sky-200 min-h-screen flex justify-center items-center">
-    <img src="/images/pngwing.com (3).png" alt="" class="absolute w-28 -mt-[430px] z-[1]">
-    <div class="whole-container w-[450px] h-96 rounded-lg shadow-2xl ring-1 ring-blue-300 relative p-4">
+    <!-- <img src="/images/pngwing.com (3).png" alt="" class="absolute w-28 -mt-[430px] z-[1]"> -->
+    <div class="whole-container w-[450px] rounded-lg shadow-md ring-1 relative p-4 shadow-sky-600">
         <div class="calc_display w-full h-24 bg-displayColor text-white text-4xl text-end rounded-lg shadow-xl">
             <h1 class="pt-10 pr-4">0</h1>
+        </div>
+        <div class="calc_keys grid grid-cols-4 mt-4 text-2xl gap-4">
+            <button class="key-operator bg-red-500 p-1 rounded-md text-white shadow-sm shadow-red-300" data-action="add">+</button>
+            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" data-action="subtract">-</button>
+            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" data-action="multiply">&times;</button>
+            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" data-action="divide">÷</button>
+            <button class="bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300">7</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">8</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">9</button>
+            <button class="key-equal row-span-4 bg-green-600 rounded-md text-white shadow-sm shadow-green-600" data-action="calculate"> = </button>
+            <button class="bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300">4</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">5</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">6</button>
+            <button class="bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300">1</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">2</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">3</button>
+            <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300">0</button>
+            <button class="decimal bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300" data-action="decimal">.</button>
+            <button class="key-operator bg-displayColor rounded-md text-white shadow-md shadow-blue-300" data-action="clear">AC</button>
+            
         </div>
     </div>
 
