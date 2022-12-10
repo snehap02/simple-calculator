@@ -11,18 +11,18 @@
 <body class="bg-gradient-to-tl from-sky-200 via-sky-50 to-sky-200 min-h-screen flex flex-col gap-8 justify-center items-center bg-fixed">
     <h1 class="text-2xl font-onlyFont tracking-wider font-bold text-displayColor">Calculator (Part-1)</h1>
     <div class="whole-container w-[450px] rounded-lg shadow-md ring-1 relative p-4 shadow-sky-600">
-        <div class="calc_display w-full h-24 bg-displayColor text-white text-4xl text-end rounded-lg shadow-xl pt-10 pr-4">
+        <div class="calc_display w-full h-24 bg-displayColor text-white text-3xl text-end rounded-lg shadow-xl pt-10 pr-4">
         </div>
         <div class="calc_keys grid grid-cols-4 mt-4 text-2xl gap-4">
-            <button class="key-operator bg-red-500 p-1 rounded-md text-white shadow-sm shadow-red-300" value="add" onclick="show('+')">+</button>
-            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" data-action="subtract" onclick="show('-')">-</button>
-            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" data-action="multiply" onclick="show('*')">&times;</button>
-            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" data-action="divide" onclick="show('/')">÷</button>
+            <button class="key-operator bg-red-500 p-1 rounded-md text-white shadow-sm shadow-red-300" onclick="show('+')">+</button>
+            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" onclick="show('-')">-</button>
+            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" onclick="show('*')">&times;</button>
+            <button class="key-operator bg-red-500 rounded-md text-white shadow-sm shadow-red-300" onclick="show('/')">÷</button>
             <button class="bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300" value="7" onclick="show('7')">7</button>
             <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300" onclick="show('8')">8</button>
             <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300" onclick="show('9')">9</button>
-            <button class="key-equal row-span-4 bg-green-600 rounded-md text-white shadow-sm shadow-green-600" data-action="calculate"> = </button>
-            <button class="num-key bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300" onclick="show('4')">4</button>
+            <button class="key-equal row-span-4 bg-green-600 rounded-md text-white shadow-sm shadow-green-600"> = </button>
+            <button class="bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300" onclick="show('4')">4</button>
             <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300" onclick="show('5')">5</button>
             <button class="bg-displayColor rounded-md text-white shadow-md shadow-blue-300" onclick="show('6')">6</button>
             <button class="bg-displayColor p-1 rounded-md text-white shadow-md shadow-blue-300" onclick="show('1')">1</button>

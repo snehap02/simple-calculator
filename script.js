@@ -1,6 +1,5 @@
 const display = document.querySelector('.calc_display');
 const clear = document.getElementById('clear');
-const keys = document.querySelector('.num-key');
 const decimal = document.querySelector('.decimal');
 const equal = document.querySelector('.key-equal');
 
