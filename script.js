@@ -19,11 +19,6 @@ function dec(){
 }
 decimal.addEventListener('click', dec);
 
-// function calc(){
-//     let output = eval(display.innerText);
-//     output = display.innerText;
-// }
-
 equal.addEventListener('click', () => {
     let next = display.innerText;
     display.innerText= eval(next);
